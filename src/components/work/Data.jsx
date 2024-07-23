@@ -4,28 +4,24 @@ import dice from "../../assets/Dice/Dice.png";
 import libray from "../../assets/library/library.png";
 import recipe from "../../assets/recipe/recipe1.png";
 
-
-
 export const projectsData = [
   {
     title: "Full-stack Library-Management app",
     link: "https://mern-library-management.vercel.app/",
     repo: "https://github.com/suryamani752/library-management",
-    subtitle:
-      "React | Next.JS 13 | TypeScript | TailwindCSS | MongoDB with Mongoose ODM",
+    subtitle: "React.js | Express.js | Node.js | mui | MongoDB | JWT",
     category: "coding",
     description:
-      "This project is a clone of the popular Threads App (META's Twitter). It includes features such as creating threads, replying, view activity, search users, create communities and invite users as well as user/community profiles.",
+      "With the help of this App users can see distinct types of book catalogue and users can get a book issued and request for a book and see the status of the requested book. ",
     images: [libray],
   },
   {
     title: "Dice Game - React Js",
     link: "https://reactproject-3-dicegame.netlify.app/",
     repo: "https://github.com/suryamani752/ReactProject-3-DiceGame",
-    subtitle: "Next.js 13 App Router | React | TailwindCSS | Shadcn",
+    subtitle: "",
     category: "coding",
-    description:
-      "This project is a fully functioning E-commerce Store with Stripe webhooks. It includes features such as featured products in homepage, different categories, preview product card, product page with color and size filters, related items.",
+    description: "",
     images: [dice],
   },
 
@@ -33,11 +29,9 @@ export const projectsData = [
     title: "Recipe Finder - Full Stack Application",
     link: "https://recipe-finder-client-wheat.vercel.app/",
     repo: "https://github.com/suryamani752/recipe-finder-client",
-    subtitle:
-      "Next.js 13 App Router | React | TailwindCSS | MySQL with Prisma ORM",
+    subtitle: "",
     category: "coding",
-    description:
-      "This project is a Full Stack Next.js 13 Admin Dashboard & CMS for E-Commerce Store with Clerk authentication, Data validation with Zod and Cloudinary file uploads. It includes features such as multiple stores, billboards per category, sizes/colors/products, archive/feature product function, orders page with payment status, API calls for billboards, categories, sizes, colors, products, light/dark mode.",
+    description: "",
     images: [recipe],
   },
 ];
