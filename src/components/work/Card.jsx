@@ -31,7 +31,6 @@ const Card = ({ item }) => {
         <p>{item.live}</p>
       </div>
       <br />
-      <br />
       <div className="subtitle">
         <p>{item.subtitle}</p>
       </div>
