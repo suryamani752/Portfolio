@@ -24,6 +24,9 @@ const Card = ({ item }) => {
             View on Github
             <i className="bx bx-right-arrow-alt work__button-icon"></i>
           </a>
+          <div>
+            <p>Live Demo open in Laptop or PC</p>
+          </div>
         </div>
       )}
 
