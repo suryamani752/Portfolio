@@ -15,6 +15,7 @@ const Card = ({ item }) => {
             Live Demo
             <i className="bx bx-right-arrow-alt work__button-icon"></i>
           </a>
+          <p>Live Demo open in Laptop or PC</p>
           <a
             className="work__button"
             href={item.repo}
