@@ -9,7 +9,7 @@ export const projectsData = [
     title: "Full-stack Library-Management app",
     link: "https://mern-library-management.vercel.app/",
     repo: "https://github.com/suryamani752/library-management",
-    open: "Live Demo open in Laptop or PC because maybe some projects are not responsive.",
+    live: "Live Demo open in Laptop or PC because maybe some projects are not responsive.",
     subtitle: "React.js | Express.js | Node.js | mui | MongoDB | JWT",
     category: "coding",
     description:
