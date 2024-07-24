@@ -64,6 +64,8 @@
 }
 .live{
   font-size: var(--small-font-size);
+  display: flex;
+  align-items: center;
 }
 
 .active-work {
