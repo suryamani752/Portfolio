@@ -51,6 +51,10 @@ const Card = ({ item }) => {
         </div>
       )}
 
+      <div className="live">
+        <p>{item.live}</p>
+      </div>
+
       <div className="subtitle">
         <p>{item.subtitle}</p>
       </div>
