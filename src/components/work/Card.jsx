@@ -27,30 +27,6 @@ const Card = ({ item }) => {
         </div>
       )}
 
-      {/* Origami card links */}
-      {item.category === "origami" && (
-        <div className="card-links">
-          <a
-            className="work__button"
-            href={item.link}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Shop item
-            <i className="bx bx-right-arrow-alt work__button-icon"></i>
-          </a>
-          <a
-            className="work__button"
-            href="http://hopacho.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            See all items
-            <i className="bx bx-right-arrow-alt work__button-icon"></i>
-          </a>
-        </div>
-      )}
-
       <div className="live">
         <p>{item.live}</p>
       </div>
