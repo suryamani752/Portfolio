@@ -62,6 +62,12 @@
   transform: translateX(0.25rem);
   color: #b7511e;
 }
+.live{
+  font-size: var(--small-font-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .active-work {
   background-color: var(--title-color);
