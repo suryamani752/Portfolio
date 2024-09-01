@@ -5,14 +5,14 @@ import CV from "../../assets/Resume-1.pdf";
 import Info from "./Info";
 const About = () => {
   return (
-    <section className="about section" id="about">
-      <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">Short introduction</span>
+    <section className="about section dark:bg-black" id="about">
+      <h2 className="section__title dark:text-white">About Me</h2>
+      <span className="section__subtitle dark:text-gray-400">Short introduction</span>
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
         <div className="about__data">
           <Info />
-          <p className="about__description">
+          <p className="about__description dark:text-gray-200">
             Experienced MERN Stack Developer and DevOps Engineer. I am skilled
             in AWS, Kubernetes, Jenkins, Docker, Ansible, Terraform, and
             Grafana. Proven ability in automating workflows, optimizing cloud
@@ -22,7 +22,7 @@ const About = () => {
             contribute to team success
           </p>
           <div>
-            <a download="" href={CV} className="button button--flex btn-resume">
+            <a download="" href={CV} className="button button--flex btn-resume dark:hover:bg-gray-600">
               Download Resume
               <svg
                 class="button__icon"

@@ -2,24 +2,24 @@ import React from "react";
 import "./footer.css";
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer dark:bg-black">
       <div className="footer__container container">
-        <h1 className="footer__title">Suryamani</h1>
+        <h1 className="footer__title text-3xl dark:text-white">Suryamani</h1>
         <ul className="footer__list">
           <li>
-            <a href="#about" className="footer__link">
+            <a href="#about" className="footer__link dark:text-gray-300">
               About
             </a>
           </li>
 
           <li>
-            <a href="#portfolio" className="footer__link">
+            <a href="#portfolio" className="footer__link dark:text-gray-300">
               Projects
             </a>
           </li>
 
           <li>
-            <a href="#skills" className="footer__link">
+            <a href="#skills" className="footer__link dark:text-gray-300">
               Skills
             </a>
           </li>
@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="footer__social">
           <a
             href="https://github.com/suryamani752"
-            className="footer__social-link"
+            className="footer__social-link dark:hover:bg-gray-700"
             target="_blank"
             rel="noreferrer"
           >
@@ -36,7 +36,7 @@ const Footer = () => {
           </a>
           <a
             href="https://www.linkedin.com/in/suryamani-kumar-78711a1b1/"
-            className="footer__social-link"
+            className="footer__social-link dark:hover:bg-gray-700"
             target="_blank"
             rel="noreferrer"
           >
@@ -44,7 +44,7 @@ const Footer = () => {
           </a>
           <a
             href="https://www.instagram.com/suryamaniinsta/"
-            className="footer__social-link"
+            className="footer__social-link dark:hover:bg-gray-700"
             target="_blank"
             rel="noreferrer"
           >
@@ -52,7 +52,7 @@ const Footer = () => {
           </a>
         </div>
 
-        <span className="footer__copy">
+        <span className="footer__copy dark:text-white">
           &#169; Suryamani-Kumar, 2024. All rights reserved
         </span>
       </div>

@@ -33,7 +33,7 @@ const Works = () => {
               onClick={(e) => {
                 handleClick(e, index);
               }}
-              className={`${active === index ? "active-work" : ""} work__item`}
+              className={`${active === index ? "active-work" : ""} work__item dark:text-gray-200`}
               key={index}
             >
               {item.name}

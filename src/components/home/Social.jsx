@@ -5,7 +5,7 @@ const Social = () => {
     <div className="home__social">
       <a
         href="https://www.linkedin.com/in/suryamani-kumar-78711a1b1/"
-        className="home__social-icon"
+        className="home__social-icon dark:text-white"
         target="_blank"
         rel="noreferrer"
       >
@@ -14,7 +14,7 @@ const Social = () => {
 
       <a
         href="https://github.com/suryamani752"
-        className="home__social-icon"
+        className="home__social-icon dark:text-white"
         target="_blank"
         rel="noreferrer"
       >
@@ -23,7 +23,7 @@ const Social = () => {
 
       <a
         href="https://www.instagram.com/suryamaniinsta/"
-        className="home__social-icon"
+        className="home__social-icon dark:text-white"
         target="_blank"
         rel="noreferrer"
       >

@@ -6,9 +6,9 @@ import ProgrammingBackend from "./ProgrammingBackend";
 import DevOps from "./DevOps";
 const Skills = () => {
   return (
-    <section className="skills section" id="skills">
-      <h2 className="section__title">Skills</h2>
-      <span className="section__subtitle">Programming & Design</span>
+    <section className="skills section dark:bg-black" id="skills">
+      <h2 className="section__title dark:text-white">Skills</h2>
+      <span className="section__subtitle dark:text-gray-400">Programming & Design</span>
 
       <div className="skills__container container grid">
         <Programming />

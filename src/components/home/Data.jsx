@@ -3,7 +3,7 @@ import React from "react";
 const Data = () => {
   return (
     <div className="home__data">
-      <h1 className="home__title">
+      <h1 className="home__title dark:text-white">
         Suryamani Kumar
         <path
           d="M25.4995 32.0305L31.3495 33.1555L36.1495 8.48051C36.4495 6.83051 35.3995 5.18051 33.8245 4.88051C32.1745 4.58051 30.5995 5.70551 30.2995 7.35551L25.4995 32.0305Z"
@@ -46,14 +46,17 @@ const Data = () => {
           fill="#EBA352"
         ></path>
       </h1>
-      <h3 className="home__subtitle">Software Engineer</h3>
-      <p className="home__description">
+      <h3 className="home__subtitle dark:text-gray-400">Software Engineer</h3>
+      <p className="home__description dark:text-gray-400">
         As a Full Stack Developer and DevOps Engineer, I specialize in
         end-to-end web development and efficient deployment practices. My
         expertise spans front-end to back-end development, cloud services, and
         automation, ensuring seamless software delivery.
       </p>
-      <a href="#contact" className="button button--flex">
+      <a
+        href="#contact"
+        className="button button--flex dark:hover:bg-gray-800"
+      >
         Contact Me
         <svg
           class="button__icon"

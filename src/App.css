@@ -68,6 +68,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 1px solid; */
 }
 
 html {
@@ -115,7 +116,7 @@ img {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 10rem 0 2rem;
+  padding: 5rem 0 2rem;
 }
 
 .section__title {
@@ -180,9 +181,16 @@ img {
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
   }
+  .mobileDark{
+    /* margin-left: 0.5rem; */
+    margin-right: 1.5rem;
+  }
+  .mobileButton{
+    margin-right: 4rem;
+  }
 
   .section {
-    padding: 8.6rem 1.5rem 4rem;
+    padding: 5.6rem 1.5rem 4rem;
   }
 
   .button {
@@ -206,7 +214,7 @@ img {
   }
 
   .section {
-    padding: 8rem 2rem 4rem;
+    padding: 3rem 2rem 4rem;
   }
 
   .section__subtitle {
@@ -216,7 +224,7 @@ img {
 
 @media screen and (max-width: 576px) {
   .section {
-    padding: 6.8rem 0.5rem 4rem;
+    padding: 3rem 0.5rem 4rem;
   }
 
   .button {
@@ -232,7 +240,7 @@ img {
   }
 
   .section {
-    padding: 6.8rem 0.7rem 4rem;
+    padding: 3rem 0.7rem 4rem;
   }
 
   .button {

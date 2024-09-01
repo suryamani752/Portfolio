@@ -7,32 +7,32 @@ const Qualifications = () => {
   };
 
   return (
-    <section className="qualification section" id="experience">
-      <h2 className="section__title">Experience</h2>
-      <span className="section__subtitle">My journey</span>
+    <section className="qualification section dark:bg-black" id="experience">
+      <h2 className="section__title dark:text-white">Experience</h2>
+      <span className="section__subtitle dark:text-gray-200">My journey</span>
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
           <div
-            className={
-              toggleState === 1
-                ? "qualification__button qualification__active button--flex"
-                : "qualification__button button--flex"
+            className={`${toggleState === 1
+              ? "qualification__button qualification__active button--flex"
+              : "qualification__button button--flex"} dark:text-gray-50`
+              
             }
             onClick={() => toggleTab(1)}
           >
-            <i className="uil uil-book-reader qualification__icon"></i>
+            <i className="uil uil-book-reader qualification__icon dark:text-gray-50"></i>
             Education
           </div>
           <div
             className={
-              toggleState === 2
+              `${toggleState === 2
                 ? "qualification__button qualification__active button--flex"
-                : "qualification__button button--flex"
+                : "qualification__button button--flex"} dark:text-gray-50`
             }
             onClick={() => toggleTab(2)}
           >
-            <i className="uil uil-briefcase-alt qualification__icon"></i>
+            <i className="uil uil-briefcase-alt qualification__icon dark:text-gray-50"></i>
             Work Experience
           </div>
         </div>
@@ -48,7 +48,7 @@ const Qualifications = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  <a className="cf-link" href="shecodes.io" target="_blank">
+                  <a className="cf-link dark:text-gray-300" href="shecodes.io" target="_blank">
                     Computer Science and Engineering
                   </a>
                 </h3>
@@ -74,7 +74,7 @@ const Qualifications = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">
+                <h3 className="qualification__title dark:text-gray-300">
                   {" "}
                   Intermediate (12th)
                 </h3>
@@ -89,14 +89,14 @@ const Qualifications = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">
+                <h3 className="qualification__title dark:text-gray-300">
                   Internship - DevOps
                 </h3>
                 <span className="qualification__subtitle">
                   Applus Idiada
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 02.2024 - Present
+                  <i className="uil uil-calendar-alt"></i> Feb 2024 - Aug 2024
                 </div>
               </div>
 

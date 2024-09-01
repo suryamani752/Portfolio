@@ -9,22 +9,26 @@ import Work from "./components/work/Work";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/Scrollup";
+// import Dark from "./Dark";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <main className="main">
-        <Home />
-        <About />
-        <Skills />
-        <Qualifications />
-        <Work />
-        <Contact />
-      </main>
-      <Footer />
-      <ScrollUp />
-    </div>
+    <>
+      <div className="App">
+        <Header /> 
+        <main className="main">
+          <Home />
+          <About />
+          <Skills />
+          <Qualifications />
+          <Work />
+          <Contact />
+        </main>
+        <Footer />
+        {/* <Dark /> */}
+        <ScrollUp />
+      </div>
+    </>
   );
 }
 

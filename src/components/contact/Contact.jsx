@@ -17,13 +17,15 @@ const Contact = () => {
   };
 
   return (
-    <section className="contact section" id="contact">
-      <h2 className="section__title">Get in Touch</h2>
-      <span className="section__subtitle">Want to reach out?</span>
+    <section className="contact section dark:bg-black" id="contact">
+      <h2 className="section__title dark:text-white">Get in Touch</h2>
+      <span className="section__subtitle dark:text-gray-50">
+        Want to reach out?
+      </span>
 
       <div className="contact__container container grid">
         <div className="contact__content">
-          <h3 className="contact__title">Contact me: </h3>
+          <h3 className="contact__title dark:text-gray-200">Contact me: </h3>
 
           <div className="contact__info">
             <div className="contact__card">
@@ -82,41 +84,49 @@ const Contact = () => {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Send me a message:</h3>
+          <h3 className="contact__title dark:text-gray-200">
+            Send me a message:
+          </h3>
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
-              <label className="contact__form-tag">Name</label>
+              <label className="contact__form-tag dark:bg-black dark:text-gray-200">
+                Name
+              </label>
               <input
                 type="name"
                 name="name"
-                className="contact__form-input"
+                className="contact__form-input dark:border-2 dark:border-white dark:bg-none"
                 placeholder="Type in your name"
               />
             </div>
             <div className="contact__form-div">
-              <label className="contact__form-tag">E-mail address</label>
+              <label className="contact__form-tag dark:bg-black dark:text-gray-200">
+                E-mail address
+              </label>
               <input
                 type="email"
                 name="email"
-                className="contact__form-input"
+                className="contact__form-input dark:border-white dark:bg-none"
                 placeholder="Type in your email address"
               />
             </div>
 
             <div className="contact__form-div contact__form-area">
-              <label className="contact__form-tag">Your message</label>
+              <label className="contact__form-tag dark:bg-black dark:text-gray-200">
+                Your message
+              </label>
               <textarea
                 name="message"
                 cols="30"
                 rows="10"
-                className="contact__form-input"
+                className="contact__form-input dark:border-white dark:bg-none"
                 placeholder="Enter your message here"
               ></textarea>
             </div>
-            <button className="button button--flex">
+            <button className="button button--flex dark:hover:bg-gray-800">
               Send Message
               <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
