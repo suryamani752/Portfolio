@@ -178,11 +178,10 @@ img {
 /* For large devices */
 @media screen and (max-width: 992px) {
   .container {
-    margin-left: var(--mb-1-5);
+    /* margin-left: var(--mb-1-5); */
     margin-right: var(--mb-1-5);
   }
   .mobileDark{
-    /* margin-left: 0.5rem; */
     margin-right: 1.5rem;
   }
   .mobileButton{
