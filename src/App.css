@@ -181,6 +181,11 @@ img {
     /* margin-left: var(--mb-1-5); */
     margin-right: var(--mb-1-5);
   }
+  .nav__logo{
+    margin-left: 10px;
+    padding-left: 40px;
+    text-align: center;
+  }
   .mobileDark{
     margin-right: 1.5rem;
   }
@@ -224,6 +229,9 @@ img {
 @media screen and (max-width: 576px) {
   .section {
     padding: 3rem 0.5rem 4rem;
+  }
+  .container{
+    width: auto;
   }
 
   .button {

@@ -114,6 +114,7 @@
     grid-template-columns: 100px repeat(2, 1fr);
     column-gap: 1.25rem;
   }
+  
 
   .home__title {
     font-size: 1.8rem;
