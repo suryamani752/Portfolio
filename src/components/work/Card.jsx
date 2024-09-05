@@ -26,6 +26,28 @@ const Card = ({ item }) => {
           </a>
         </div>
       )}
+      {item.category === "design" && (
+        <div className="card-links">
+          <a
+            className="work__button"
+            href={item.link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Live Demo
+            <i className="bx bx-right-arrow-alt work__button-icon"></i>
+          </a>
+          <a
+            className="work__button"
+            href={item.repo}
+            target="_blank"
+            rel="noreferrer"
+          >
+            View on Github
+            <i className="bx bx-right-arrow-alt work__button-icon"></i>
+          </a>
+        </div>
+      )}
 
       <div className="live">
         <p>{item.live}</p>
@@ -49,9 +71,9 @@ const Card = ({ item }) => {
             );
           })}
 
+        {/* <img src={item.image} alt="" className="card__img" />
         <img src={item.image} alt="" className="card__img" />
-        <img src={item.image} alt="" className="card__img" />
-        <img src={item.image} alt="" className="card__img" />
+        <img src={item.image} alt="" className="card__img" /> */}
       </div>
     </div>
   );
