@@ -8,7 +8,6 @@ import expand2 from "../../assets/expand/expand2.png";
 import brand1 from "../../assets/brand/brand1.png";
 
 export const projectsData = [
-  
   {
     title: "Dice Game - React Js",
     link: "https://reactproject-3-dicegame.netlify.app/",
@@ -21,7 +20,7 @@ export const projectsData = [
   },
 
   {
-    title: "Recipe Finder - Full Stack Application",
+    title: "Recipe Finder",
     link: "https://recipe-finder-client-wheat.vercel.app/",
     repo: "https://github.com/suryamani752/recipe-finder-client",
     live: "Live Demo open in Laptop or PC because maybe some projects are not responsive.",
