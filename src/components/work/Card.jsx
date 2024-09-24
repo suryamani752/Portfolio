@@ -1,6 +1,6 @@
 const Card = ({ item }) => {
   return (
-    <div>
+    <div className="flex flex-col">
       <h3 className="services__modal-title">{item.title}</h3>
 
       {/* Coding card links */}

@@ -112,6 +112,17 @@ const Header = () => {
                 <i className="uil uil-message nav__icon"></i>Contact
               </a>
             </li>
+            {/* <li className="nav__item">
+              <a
+                href="#services"
+                className={`nav__link ${
+                  activeNav === "#services" ? "active-link" : ""
+                } dark:text-gray-200`}
+                onClick={() => setActiveNav("#services")}
+              >
+                <i className="uil uil-message nav__icon"></i>Services
+              </a>
+            </li> */}
           </ul>
           <i
             className="uil uil-times nav__close dark:text-gray-400 dark:hover:text-rose-500"

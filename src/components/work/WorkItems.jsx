@@ -25,10 +25,10 @@ const WorkItems = ({ item }) => {
 
       <div
         className={
-          toggleState === 1 ? "services__modal active-modal" : "services__modal"
+          `${toggleState === 1 ? "services__modal active-modal" : "services__modal"}`
         }
       >
-        <div className="services__modal-content">
+        <div className="services__modal-content h-screen lg:top-1 md:top-2 top-3">
           <i
             onClick={() => toggleTab(0)}
             className="uil uil-times services__modal-close"

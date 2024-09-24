@@ -9,13 +9,13 @@ import Work from "./components/work/Work";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/Scrollup";
-// import Dark from "./Dark";
+// import Services from "./components/services/Services";
 
 function App() {
   return (
     <>
       <div className="App">
-        <Header /> 
+        <Header />
         <main className="main">
           <Home />
           <About />
@@ -23,6 +23,7 @@ function App() {
           <Qualifications />
           <Work />
           <Contact />
+          {/* <Services /> */}
         </main>
         <Footer />
         {/* <Dark /> */}
