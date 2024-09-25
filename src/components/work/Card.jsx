@@ -63,11 +63,11 @@ const Card = ({ item }) => {
         <i className="bx bx-down-arrow-alt work__button-icon"></i>
       </p>
 
-      <div className="image-container">
+      <div className="image-container flex flex-col gap-3">
         {item.images &&
           item.images.map((image) => {
             return (
-              <img src={image} alt={image} className="card__img" key={image} />
+              <img src={image} alt={image} className="card__img border-4 rounded-[10px]" key={image} />
             );
           })}
 
