@@ -1,7 +1,7 @@
 // import brand from "../../assets/brand/brand1.png";
 import dice from "../../assets/Dice/Dice.png";
 // import expand from "../../assets/expand/expand1.png";
-import libray from "../../assets/library/library.png";
+// import libray from "../../assets/library/library.png";
 import expand1 from "../../assets/expand/expand1.png";
 import expand2 from "../../assets/expand/expand2.png";
 import brand1 from "../../assets/brand/brand1.png";
@@ -18,8 +18,22 @@ import foodMenu5 from "../../assets/Food-Menu/f5.png"
 import foodMenu6 from "../../assets/Food-Menu/f6.png"
 import foodMenu7 from "../../assets/Food-Menu/f7.png"
 import foodMenu8 from "../../assets/Food-Menu/f8.png"
+import cart1 from "../../assets/cart/cart1.png"
+import cart2 from "../../assets/cart/cart2.png"
+import cart3 from "../../assets/cart/cart3.png"
+
 
 export const projectsData = [
+  {
+    title: "Shopping Cart",
+    link: "https://react-shopping-cart-suryamani752.vercel.app/",
+    repo: "https://github.com/suryamani752/React-ShoppingCart",
+    live: "Live Demo open in Laptop or PC because maybe some projects are not responsive.",
+    subtitle: "React.js | tailwind CSS | Context API",
+    category: "coding",
+    description: "",
+    images: [cart1, cart2, cart3],
+  },
   {
     title: "Food-Menu",
     link: "https://portfolio-suryamani-kumar-752.vercel.app/",
@@ -50,16 +64,16 @@ export const projectsData = [
     description: "",
     images: [dice],
   },
-  {
-    title: "Full-stack Library-Management app",
-    link: "https://mern-library-management.vercel.app/",
-    repo: "https://github.com/suryamani752/library-management",
-    live: "Live Demo open in Laptop or PC because maybe some projects are not responsive.",
-    subtitle: "React.js | Express.js | Node.js | mui | MongoDB | JWT",
-    category: "coding",
-    description: "",
-    images: [libray],
-  },
+  // {
+  //   title: "Full-stack Library-Management app",
+  //   link: "https://mern-library-management.vercel.app/",
+  //   repo: "https://github.com/suryamani752/library-management",
+  //   live: "Live Demo open in Laptop or PC because maybe some projects are not responsive.",
+  //   subtitle: "React.js | Express.js | Node.js | mui | MongoDB | JWT",
+  //   category: "coding",
+  //   description: "",
+  //   images: [libray],
+  // },
   {
     title: "Expending effect - Responsive",
     link: "https://expanding-effect-umber.vercel.app/",
