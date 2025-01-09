@@ -10,7 +10,7 @@ const Info = () => {
           Latest Degree - B.Tech CSE{" "}
           <a
             className="cf-link"
-            href="https://codingfactory.aueb.gr/"
+            href="https://vitbhopal.ac.in/"
             target="_black"
           >
             Vellore Institute of Technology
