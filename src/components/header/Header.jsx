@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./header.css";
-import Dark from "../../Dark";
+import ThemeSwitcher from "../theme";
 
 const Header = () => {
   /* --- Change Background Header --- */
@@ -44,7 +44,11 @@ const Header = () => {
           Suryamani
         </a>
         {/* <DarkMode /> */}
-        <div className={`${Toggle ? "nav__menu show-menu" : "nav__menu"} dark:bg-black`}>
+        <div
+          className={`${
+            Toggle ? "nav__menu show-menu" : "nav__menu"
+          } dark:bg-black`}
+        >
           <ul className="nav__list grid">
             <li className="nav__item">
               <a
@@ -133,7 +137,7 @@ const Header = () => {
         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
           <i class="uil uil-apps dark:text-[#B7511E]"></i>
         </div>
-        <Dark />
+        <ThemeSwitcher />
       </nav>
     </header>
   );
